@@ -17,7 +17,7 @@ case "$RES" in
        pip install keras
        pip install numpy
        pip install pickle
-       pip install json
+       pip install jsonlib
        pip install tensorflow
 esac
 
