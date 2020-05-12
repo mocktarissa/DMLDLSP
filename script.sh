@@ -10,7 +10,7 @@ case "$RES" in
         ;;
     *)
        pip install django
-       pip install rest_framework
+       pip install djangorestframework
        pip install pickle
        pip install sklearn
        pip install pandas 
