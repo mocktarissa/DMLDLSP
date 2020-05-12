@@ -9,11 +9,16 @@ case "$RES" in
         echo "PIP is not installed"
         ;;
     *)
-       pip3 install django
-       pip3 install rest_framework
-       pip3 install pickle
-       pip3 install sklearn
-       pip3 install pandas 
+       pip install django
+       pip install rest_framework
+       pip install pickle
+       pip install sklearn
+       pip install pandas 
+       pip install keras
+       pip install numpy
+       pip install pickle
+       pip install json
+       pip install tensorflow
 esac
 
 echo "You are set "
